@@ -74,10 +74,17 @@ bun run dev
 
 To test this application, set up a local Talos cluster in Docker. Follow the instructions from the [Talos quickstart guide]() and generate a new Talos config file.
 
+Spin up local Talos cluster on Docker:
+
+```bash
+talosctl cluster create
+```
+
+
 Create `talosconfig` file:
 
 ```bash
-talosctl config new
+talosctl config new --nodes 127.0.0.1
 ```
 
 Check created config file for validity (when does it expire?):
