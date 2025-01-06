@@ -15,10 +15,10 @@
 
 ## Environment Variables
 
-|Env name| Default value| Description|
-|--|--|--|
-|NUXT_TALOS_CONFIG_PATH|`/var/run/secrets/talos.dev`|Sets the path to the talosconfig file|
-|NUXT_TALOS_CONFIG_NAME|`config`|Sets the name of the talosconfig file or the key in the Kubernetes secret|
+| Env name               | Default value                | Description                                                               |
+| ---------------------- | ---------------------------- | ------------------------------------------------------------------------- |
+| NUXT_TALOS_CONFIG_PATH | `/var/run/secrets/talos.dev` | Sets the path to the talosconfig file                                     |
+| NUXT_TALOS_CONFIG_NAME | `config`                     | Sets the name of the talosconfig file or the key in the Kubernetes secret |
 
 ## Talos Service Account
 
